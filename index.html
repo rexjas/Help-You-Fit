@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Help You Fit</title>
+    <link rel="icon" href="img/H.jpg">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <script defer src="js/scripts.js"></script>
+    <script defer src="js/index.js"></script>
+</head>
+<body> 
+
+    <header>
+        <div class="header">
+            
+            <a href="index.html"><img src="img/logos.png" class="logo"></a>
+            <div class="logo-title"></div>
+            
+            <div class="navigation">
+                <ul>
+                    <li class="nav-font"><a href="index.html">HOME</a></li>
+                    <li class="nav-font"><a href="about-us.html">ABOUT US</a></li>
+                    <li class="nav-font"onclick="contactPopup()">CONTACT US</li>
+                </ul>
+            </div>
+
+            <div class="contact-us" id="popup">
+                <div class ="overlay"></div>
+                <div class ="content">
+                    <h1>Contact Information</h1>
+                    <p>Unfortunately, there is no method of contacting us yet.</p>
+                    <div class="close" onclick= "contactPopup()">&times;
+                    </div>
+
+                        </div>
+                    </div>
+        </div>
+
+        <div class="bar"></div>
+        
+    </header>
+
+
+    
+    <div class="main-index">
+        <div class="col">
+            <p> 
+                Helping you <br>
+                <span id="type-write"></span>
+                <span id="cursor" class="cursor">|</span>
+                
+            </p>
+            <p class="info"> Help You Fit is dedicated to helping beginners achieve their fitness goals.</p>
+        </div>
+        <div class="col">
+
+            <a href="routines.html"><div class="routines">
+                <h5>Routines</h5>
+                
+            </div></a>
+
+            <a href="workouts.html"><div class="workouts">
+                <h5>Workouts</h5>
+               
+            </div></a>
+
+            <a href="diet.html"><div class="section, diet">
+                <h5>Diet</h5>
+                
+            </div></a>
+            
+            <a href="supplements.html"><div class="supplements">
+                <h5>Supplements</h5>
+                
+            </div></a>
+
+            </div>
+        </div>
+
+    </div>
+
+    <div class="scrolltop"><button class="scrolltop" onclick="topFunction()">Go Back To The Top</button> </div><br>
+    <div class="bar"></div>
+
+    <footer class="footer">
+        <div>
+        <p >© Help You Fit 2023. All Rights Reserved<br>
+        Rex Jason Rapisura, Kent Rogen De Guzman, Dence Marlo Yabut, Ken Jamora, Andrew Maje, Jashandeep Singh Dheri </p>
+        </div>
+
+        
+    </footer>
+
+    
+</body>
+</html>

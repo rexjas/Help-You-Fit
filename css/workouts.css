@@ -1,0 +1,46 @@
+.main {
+    padding-right: 5%;
+    padding-left: 5%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    display: flex;
+    height: 88%;
+    align-items: center;
+}
+
+.imgs {
+    width: 250px;
+    height: 300px;
+    border-radius: 15px;
+    
+}
+.image {
+    position: relative;
+    display: inline-block;
+    margin: 10px;
+    
+}
+.caption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.5);
+    color:rgb(255, 209, 94);
+    width: 100%;
+    padding: 15%;
+    opacity: 0;
+    transition: opacity 0.5s;
+    font-size: 20px;
+    font-family: 'Courier New', monospace;
+    text-align: center;
+    box-sizing: border-box;
+
+}
+.image:hover .caption {
+    opacity: 1;
+}
+
+.muscle {
+    text-align: center;
+    font-family: 'Courier New', monospace;
+}

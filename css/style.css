@@ -1,0 +1,145 @@
+body {
+    margin: 0;
+    font-size: 16px;
+}
+
+.bar {
+    width: 100%;
+    background-color: rgb(255, 209, 94);
+    height:10px;
+}
+
+.main-index {
+    padding-right: 5%;
+    padding-left: 5%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    display: flex;
+    height: 88%;
+    align-items: center;
+
+}
+
+.col {
+    font-size: 36px;
+    font-family: 'Courier New', monospace;
+    flex-basis: 50%;
+    padding: 2%;
+}
+
+.cursor {
+    animation: blink 0.6s linear infinite;
+}
+
+@keyframes blink {
+    0% {opacity: 100%;}
+    50% {opacity: 0%;}
+}
+
+.scrolltop {   
+    align-items:center;  
+    width: 100px;
+    height: 40px;
+    border: #844FB0;
+    background-color: #844FB0;
+    color: white;
+    font-weight: bold;
+    margin: auto;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: 'Courier New', monospace;
+
+}
+
+.info {
+font-size: 15px;
+}
+
+.routines {
+    background-image: url("routine.png"); 
+    background-position: center;
+    background-size: cover;
+    font-size: 28px;
+    border: 3px;
+    text-decoration: none;
+    color:rgb(183, 0, 255);
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.3);
+    width: 250px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 25px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+}
+
+.workouts {
+    background-image: url("dumbbell.jpg"); 
+    background-position: center;
+    background-size: cover;
+    font-size: 28px;
+    border: 3px;
+    text-decoration: none;
+    color:rgb(183, 0, 255);
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.3);
+    width: 250px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 25px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+}
+
+.diet {
+    background-image: url("eggs.jpg"); 
+    background-position: center;
+    background-size: cover;
+    font-size: 28px;
+    border: 3px;
+    text-decoration: none;
+    color:rgb(183, 0, 255);
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.3);
+    width: 250px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 25px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+}
+
+.supplements {
+    background-image: url("supplements.jpg"); 
+    background-position: center;
+    background-size: cover;
+    font-size: 28px;
+    border: 3px;
+    text-decoration: none;
+    color:rgb(183, 0, 255);
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.3);
+    width: 250px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 25px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+}
+
+.text-title-font {
+    font-size: 28px;
+    font-family: 'Courier New', monospace;
+    text-align: center;
+    align-items: center;
+    margin: 0 auto;
+  }
+
+  .text-font {
+    font-family: 'Courier New', monospace;
+    font-size: 18px;
+  }
